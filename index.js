@@ -1,4 +1,4 @@
-//1.Get all the countries from Asia continent /region using Filter function
+//1.Get all the countries from Asia continent /region using Filter function.
 const request=new XMLHttpRequest();
 request.open("GET","https://restcountries.com/v3.1/all", true);
 request.send();
